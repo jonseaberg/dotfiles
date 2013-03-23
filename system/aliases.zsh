@@ -8,3 +8,6 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+alias gnf="git new-fb $1"
+alias gswm="git config gitProcess.integrationBranch $1"
